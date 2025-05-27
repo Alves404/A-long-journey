@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000000e1;
+  background-image: url();
+  margin: 0;
+  padding: 0;
+}
+/* Cabeçalho */
+header {
+  background: #000000;
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzdvcWY3YzFtZXZycmo1Zm1pcHhjczM0aHBvN2ZzdWszZ25zY3VpNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lopx9eUi34rbq/giphy.gif);
+  background-repeat: no-repeat; 
+  background-size: auto;
+  background-size: cover;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+/* Animação do titulo do Cabeçalho */
+#MDC {
+    font-size: 2em;
+    font-weight: bold;
+    animation: focus-in-contract 1s both, text-shadow-pop-top 1s both 1s;
+}
+

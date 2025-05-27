@@ -86,30 +86,3 @@ footer {
   background: #0056b3;
   animation: shake-bottom 1s ease-in-out;
 }
-/* ===========================================================
-  ⚠️ ATENÇÃO: A PARTIR DESTE PONTO ESTÃO OS KEYFRAMES DAS 
-  ANIMAÇÕES DO SITE!
-  -----------------------------------------------------------
-  Esta seção contém todas as definições de keyframes usadas 
-  para animar elementos do site. Edite com cuidado para não 
-  comprometer as animações existentes as animações do site
-  estão resumidas e nomeadas de forma a facilitar a
-  identificação e modificação estao comprimidas para melhorar
-  o entendimento e a manutenção do código.
-  =========================================================== */
-/* 1. Animações para a direita e esquerda */
-@keyframes slide-right { from { transform: translateX(0);} to { transform: translateX(100px);} }
-@keyframes slide-left { from { transform: translateX(100px);} to { transform: translateX(0);} }
-/* 2. Animações de texto (sombra para baixo e direita) */
-@keyframes text-shadow-pop-top { from { text-shadow: 0 0 #555; transform: translateY(0);} to { text-shadow: 0 -1px #555,0 -2px #555,0 -3px #555,0 -4px #555,0 -5px #555,0 -6px #555,0 -7px #555,0 -8px #555; transform: translateY(8px);} }
-@keyframes text-shadow-pop-right { from { text-shadow: 0 0 #555; transform: translateX(0);} to { text-shadow: 1px 0 #555,2px 0 #555,3px 0 #555,4px 0 #555,5px 0 #555,6px 0 #555,7px 0 #555,8px 0 #555; transform: translateX(-8px);} }
-/* 3. Animação de foco */
-@keyframes focus-in-contract { from { letter-spacing: 1em; filter: blur(12px); opacity: 0;} to { filter: blur(0); opacity: 1;} }
-/* 4. Animação de botão sacudindo */
-@keyframes shake-bottom { 0%,100% { transform: rotate(0deg); transform-origin: 50% 100%;} 10% { transform: rotate(2deg);} 20%,40%,60% { transform: rotate(-4deg);} 30%,50%,70% { transform: rotate(4deg);} 80% { transform: rotate(-2deg);} 90% { transform: rotate(2deg);} }
-/* 5. Animação de bounce para cima */
-@keyframes bounce-top { 0% { transform: translateY(-45px); animation-timing-function: ease-in; opacity: 1;} 24% { opacity: 1;} 40% { transform: translateY(-24px);} 65% { transform: translateY(-12px);} 82% { transform: translateY(-6px);} 93% { transform: translateY(-4px);} 25%,55%,75%,87%,100% { transform: translateY(0); animation-timing-function: ease-out; opacity: 1;} }
-/* 6. Animação Flow (botão pulsando) */
-@keyframes flow { 0%,100% { transform: translate(0,0);} 50% { transform: translate(0,-25%);} }
-/* 7. Efeito de led piscando no texto */
-@keyframes text-flicker-out-glow { 0%,13.9% { opacity: 1; text-shadow: 0 0 30px #fff9,0 0 60px #fff7,0 0 110px #fff4,0 0 100px #fff2;} 14%,14.9%,23%,24.9%,35%,39.9%,43%,44.9%,55%,69.4%,70%,79.4%,80%,89.8% { opacity: 0; text-shadow: none;} 15%,22.9% { opacity: 1; text-shadow: 0 0 30px #fff8,0 0 60px #fff6,0 0 110px #fff3,0 0 100px #fff2;} 25%,34.9% { opacity: 1; text-shadow: 0 0 30px #fff8,0 0 60px #fff5,0 0 100px #fff2;} 40%,42.9% { opacity: 1; text-shadow: 0 0 30px #fff8,0 0 60px #fff5;} 45%,54.9% { opacity: 1; text-shadow: 0 0 30px #fff7,0 0 60px #fff4;} 69.5%,69.9% { opacity: 1; text-shadow: 0 0 30px #fff7,0 0 60px #fff4;} 79.9% { opacity: 1; text-shadow: 0 0 30px #fff4;} 89.9% { opacity: 1; text-shadow: none;} 90%,100% { opacity: 0;} }

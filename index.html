@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Long Journey</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/animaçãoes.css">
 </head>
 <body>
     <header>
@@ -16,24 +17,8 @@
         <p>
             Esse site é um cantinho feito para ajudar nos estudos! Aqui, a galera compartilha materiais e provas que acharam úteis, tudo para dar aquela força no aprendizado. É um espaço colaborativo onde todo mundo pode trocar ideias e ajudar um ao outro nos estudos.
         </p>
-        <a href="jogo.html" class="btn">Começar</a>
-        <a href="#" class="btn2" id="toggle-mode">🌙</a>
-        <script>
-        document.getElementById("toggle-mode").addEventListener("click", function(event) {
-            event.preventDefault();
-            var main = document.querySelector('main');
-            if (main.style.backgroundColor === 'black') {
-            main.style.backgroundColor = 'white';
-            main.style.color = 'black';
-            this.innerHTML = '🌙';
-            } else {
-            main.style.backgroundColor = 'black';
-            main.style.color = 'white';
-            this.innerHTML = '🌞';
-            }
-        });
-    </script>
-</main>
+        <a href="./OP/inicio.html" class="btn">Começar</a>
+    </main>
 <footer>
     &copy; 2025 A Long Journey. Todos os direitos reservados. (Confia)
 </footer>
